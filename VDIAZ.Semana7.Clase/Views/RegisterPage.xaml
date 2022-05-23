@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VDIAZ.Semana7.Clase.Views.RegisterPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Register"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Nombre:"></Label>
+            <Entry x:Name="txtName" Placeholder="Introduce tu nombre"></Entry>
+            
+            <Label Text="Usuario:"></Label>
+            <Entry x:Name="txtUser" Placeholder="Introduce tu usuario"></Entry>
+
+            <Label Text="Contraseña:"></Label>
+            <Entry x:Name="txtPassword" Placeholder="Introduce tu contraseña"></Entry>
+
+            <Button x:Name="btnRegister" Text="Guardar" BackgroundColor="Azure" Clicked="btnRegister_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
